@@ -3,7 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://akshataamburayakoodagi-dotcom.github.io/LOGIN_react/",
+  "homepage": "https://akshataamburayakoodagi-dotcom.github.io/LOGIN_react",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -13,12 +20,5 @@
     "vite": "^7.0.0",
     "@vitejs/plugin-react": "^4.0.0",
     "gh-pages": "^6.0.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   }
 }

@@ -47,7 +47,7 @@ export default function LoginPage() {
 
       <main className="main-content">
         <div className="login-card">
-          <img src="/logo.png" alt="Portal Logo" className="logo" />
+          <img src="public/logo.png" alt="Portal Logo" className="logo" />
 
           <h2 className="card-title">Sign In</h2>
 
